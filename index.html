@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S3 PS3 Graphics</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+</head>
+<body>
+    <div id="gallery"></div>
+    <div id="pagination">
+        <button id="prev" onclick="prevPage()">Previous</button>
+        <span id="page-number">Page 1 of 1</span>
+        <button id="next" onclick="nextPage()">Next</button>
+        <input type="number" id="page-input" min="1" placeholder="Go to page" />
+        <button onclick="goToPage()">Go</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
